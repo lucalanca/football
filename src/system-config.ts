@@ -45,7 +45,8 @@ System.config({
   map: {
     '@angular': 'vendor/@angular',
     'rxjs': 'vendor/rxjs',
-    'main': 'main.js'
+    'main': 'main.js',
+    'lodash': 'vendor/lodash'
   },
   packages: cliSystemConfigPackages
 });

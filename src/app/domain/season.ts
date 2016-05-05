@@ -2,7 +2,7 @@ import {IAPILink, ITeamAPIObject, APIHelpers, IFixtureSimpleAPIObject} from './a
 import {Team, ITeamSimple} from './team';
 import {FixtureSimple} from './fixture-simple';
 
-import {findIndex, compact, groupBy} from 'lodash';
+// import {groupBy} from 'lodash';
 
 export interface ISeasonAPILink {
   self: IAPILink;
@@ -73,6 +73,6 @@ export class Season {
   }
 
   getFixturesGroupedByMatchday () {
-    return groupBy(this.fixtures, 'matchday');
+    //return groupBy(this.fixtures, 'matchday');
   }
 }

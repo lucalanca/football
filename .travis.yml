@@ -3,6 +3,6 @@ node_js:
   - "5"
   - "5.1"
   - "4"
-before_script:
-  - npm install -g angular-cli
+env:
+  - NODE_ENV=testing
 script: ng test --watch false

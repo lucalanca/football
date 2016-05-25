@@ -15,9 +15,24 @@
     "target": "es5",
     "inlineSources": true
   },
-
   "files": [
+    "app/environment.ts",
+    "app/football.component.spec.ts",
+    "app/football.component.ts",
+    "app/index.ts",
+    "app/league/index.ts",
+    "app/league/league.component.spec.ts",
+    "app/league/league.component.ts",
+    "app/league/shared/index.ts",
+    "app/shared/index.ts",
     "main.ts",
+    "system-config.ts",
     "typings.d.ts"
-  ]
+  ],
+  "filesGlob": [
+    "!*.spec.ts"
+  ],
+  "atom": {
+    "rewriteTsconfig": true
+  }
 }

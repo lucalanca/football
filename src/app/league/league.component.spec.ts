@@ -43,4 +43,3 @@ describe('Component: League', () => {
 })
 class LeagueComponentTestController {
 }
-
